@@ -1,9 +1,12 @@
 ## Open Source Step 1: Start with dynamic gradients and start on the path to optimization
 
 ## 1 Project Background
-1.1 Project objectives: Practice data visualization, be familiar with the GitHub environment, be familiar with git operations, and understand open source projects.
-1.2 Report date: March 5, 2025
-1.3 Project Leader: 11
+
+**1.1 Project objectives**: Practice data visualization, be familiar with the GitHub environment, be familiar with git operations, and understand open source projects.
+
+**1.2 Report date**: March 5, 2025
+
+**1.3 Project Leader**: 11
 
 ## 2 Project Process
 
