@@ -31,11 +31,15 @@
 
 #### 2.2.1 Open the repository
 
-2.2.1.1 JupyterLab: After switching to the popular virtual environment from the conda command line, install the Git extension, go to the repository folder, and open JupyterLab.
+2.2.1.1 JupyterLab: 
+After switching to the popular virtual environment from the conda command line, install the Git extension, go to the repository folder, and open JupyterLab.
+
 Other opening methods: VSCode, PyCharm and other common software can open local repositories, and the specific opening method depends on the file format and the editors I use. Considering that the language of this project is Jupyter Notebook, we use JupyterLab to open the project repository.
+
 About Git extensions: Since you have not used JupyterLab to open repositories before, you can install Git extensions before opening JupyterLab to facilitate subsequent branch management. You can also manage branches with terminal commands. Command to install the 'jupyterlab-git' extension: 'pip install jupyterlab-git'
 
 2.2.1.2 Create branches: colorful and colorful_act
+
 To create, view, and switch branches, you can use Git to expand, or you can use terminal commands to close the file refresh interface when you are stuck, and there is a probability that there will be file caching, resulting in modification errors.
 
 #### 2.2.2 Open the file
@@ -43,11 +47,11 @@ To create, view, and switch branches, you can use Git to expand, or you can use 
 
 ### 2.3 Modify the file
 
-2.3.1 Confirm the current branch: 
+#### 2.3.1 Confirm the current branch: 
 
 You can check the lower left corner of the interface, view the Git extension, and type '`git branch`' in the terminal.
 
-2.3.2 Edit the content of the file
+#### 2.3.2 Edit the content of the file
 - (1) Branch main: Add a tag
  - - Added tags such as diagram name and axis name to facilitate image reading.
 
@@ -104,10 +108,12 @@ Correct operation: In JupyterLab, the normal operation is to modify and save the
 
 Problem description: If the modified file is not committed and the branch switch is performed, two scenarios will occur:
 - 1: The branch is switched smoothly, but the files remain unchanged, the files in each branch are the latest files, and the old version is suspected to be missing.
+
  Solution:
  This is stuck, it may be caused by file caching, you can try to restore it to normal by closing the file, refreshing the web page, restarting kernal, restarting JupyterLab, etc.
 
 - 2: Git prompt: Requires a commit to the modified file before you can switch branches.
+
  Solution:
  Follow the prompts to name your changes and commit or discard the action.
 
