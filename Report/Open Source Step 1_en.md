@@ -147,11 +147,14 @@ Version 4: [Reserved]
 #### 4.3.1 problem and solution
 
 - Problem 1: After creating a colorful branch in a remote repository, I edit a file online, but an error is reported and the file cannot be previewed.
- Solution: Create a local repository, open the file correctly locally, make file modifications, and then submit the push.
+ 
+- Solution 1: Create a local repository, open the file correctly locally, make file modifications, and then submit the push.
 
 - Problem 2: An error occurs when pushing a colorful branch of a local repository to a remote repository, indicating that it is not the latest version, and a double error occurs after pulling, that is, it cannot be pulled or pushed, and the files of the local repository and the files of the remote repository are conflicting.
- Solution: 
+
+- Solution 2: 
  Force push. Once you have determined that the changes to the remote branch are incorrect, force push the correct and latest local file to the remote repository, overwriting the changes in the remote branch: 'git push - force' (Use with caution, it will easily lead to data loss.) 
+
  This conflict was later handled when supplementing the Readme description with VSCode, merging the two versions of the file (Ignore the changes of the remote branch, accept all the changes of the local branch, and finally merge the results.) .
 
 #### 4.3.2 Conclusion
